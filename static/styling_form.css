@@ -1,0 +1,40 @@
+body {text-align: center;
+      background-color: #2F4F4F;}
+
+h1{font-family: Lucida Handwriting, sans-serif;
+   color: white;
+   font-size: 30px;}
+
+h2 {font-family: Garamond, sans-serif;
+    color: white;
+    margin-bottom: 5px;}
+
+h3 {font-family: Garamond, sans-serif;
+    color: white;
+    font-size: 22px;}
+
+h6 {font-family: Garamond, sans-serif;
+    color: black;
+    margin-top: 0px;
+    font-size: 17px;}
+
+a:link,
+a:visited {font-family: Garamond, sans-serif;
+           color: white;
+           font-size: 21px;}
+
+form {font-family: Garamond;
+      color: #000000;
+      padding: 20px;}
+
+button {font-family: Garamond;
+        font-size: 20px;
+        }
+
+input, label, button {display: block;
+                      margin: 10px auto;
+                      font-size: 23px;}
+
+button:hover {background-color: #008B8B;
+              color: white;
+              cursor: pointer;}

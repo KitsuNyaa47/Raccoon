@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription Confirmed</title>
+    <link rel="stylesheet" href="static/styling_submit.css">
+</head>
+
+<body>
+<header>
+<h1>Thank You!</h1>
+<h2>You are now subscribed to the Raccoon Den newsletter.</h2>
+</header>
+<hr>
+<img src="static/raccoon_sitting.jpg" width="600" height="380" alt="Cute Raccoon">
+<h6>Image source: https://www.livescience.com/52655-raccoons.html</h6>
+
+<main>
+<h3>We'll keep you updated with everything raccoon-related!</h3>
+<p><strong>Name: </strong> {{ name }}</p>
+<p><strong>Email: </strong> {{ email }}</p>
+<br>
+<h4>Click below to return to the homepage:</h4>
+<a href="{{ url_for('home') }}">🦝 Home 🦝</a>
+</main>
+</body>
+</html>

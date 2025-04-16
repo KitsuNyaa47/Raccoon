@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="static/styling_form.css">
+</head>
+<body>
+
+<header>
+    <h1>Newsletter Signup</h1>
+</header>
+<hr>
+
+<main>
+    <img src="static/StandingRaccoon.jpg" width="500" height="300" alt="Cute Raccoon">
+    <h6>Image source: https://essetavans.nl/2023/06/19/racoons-across-europe/</h6>
+
+<h2>Please enter the following to subscribe:</h2>
+<form action="/submit" method="POST">
+    <label for="name"><strong>Your name:</strong></label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email"><strong>Your email:</strong></label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Subscribe!</button>
+</form>
+
+<h3>Click here to return to homepage:</h3>
+    <a href="{{ url_for('home') }}">🦝 Home 🦝</a>
+
+</main>
+
+</body>
+</html>

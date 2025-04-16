@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raccoon - Home</title>
+    <link rel="stylesheet" href="static/styling_home.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Raccoon Den</h1>
+    <h2>Welcome to the Home for Trash Pandas!</h2>
+  </header>
+
+<hr>
+
+<img src="static/Raccoon1.jpg" width="400" height="250" alt="Cute Raccoon">
+<h6 style="margin-top: 3px;">Image source: https://vetmed.tamu.edu/news/pet-talk/raccoons/</h6>
+  
+<main>
+    <h3 style="margin-bottom: 0px;">To subscribe to our newsletter, click on the following link:</h3>
+    <a href="{{ url_for('form') }}" style="margin-top: 0px;">🦝 Raccoon Newsletter 🦝</a>
+
+    <h4>Quick information about raccoons</h4>
+
+    <h5>What they like to eat: (1)</h5>
+    <ul>
+       <li>Fleshy Fruits</li>
+       <li>Grains</li>
+       <li>Invertebrates</li>
+       <li>Rodents</li>
+       <li>Fish</li>
+    </ul>
+
+    <h5>Habitat: (1)</h5>
+    <p>"Raccoons prefer wooded areas near streams, ponds,<br>
+        and marshes but are highly adaptable and can live<br>
+        in agricultural areas and in proximity to human<br>
+        developments."</p>
+
+    <p>"They make their dens in tree cavities,<br>
+        abandoned woodchuck or fox burrows, rock crevices,<br>
+        brush piles, chimneys, attics, sheds, and other structures."</p>
+
+    <h5>Why the name "Trash Panda"? (2)</h5>
+    <p>"From a likening of the black patches around a raccoon's eyes to similar markings on a giant panda,<br>
+        it being in the same superfamily as the red panda,<br>
+        and a reference to its tendency to forage for garbage in urban environments."</p>
+
+</main>
+<h5>References:</h5>
+    <ol>
+        <li>https://portal.ct.gov/-/media/deep/wildlife/pdf_files/outreach/fact_sheets/raccoonpdf.pdf</li>
+        <li>https://en.wiktionary.org/wiki/trash_panda</li>
+    </ol>
+</body>
+</html>

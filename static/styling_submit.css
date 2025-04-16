@@ -1,0 +1,31 @@
+body {text-align: center;
+      background-color: #2F4F4F;}
+
+h1 {color: white;
+    font-family: Lucida Handwriting, sans-serif;
+    font-size: 30px;}
+
+h2 {color: white;
+    font-family: Garamond, sans-serif;}
+
+h3 {color: white;
+    font-family: Garamond, sans-serif;
+    font-size: 22px;}
+
+h4 {color: white;
+    font-family: Garamond, sans-serif;
+    font-size: 22px;}
+
+h6 {color: black;
+    font-family: Garamond, sans-serif;
+    font-size: 18px;
+    margin-top: 0px;}
+
+p {color: black;
+   font-family: Garamond, sans-serif;
+   font-size: 22px;}
+
+a:link,
+a:visited {font-family: Garamond, sans-serif;
+           color: white;
+           font-size: 20px;}
